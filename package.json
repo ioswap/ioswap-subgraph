@@ -7,7 +7,7 @@
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
     "create-local": "graph create ioswap/swap --node http://127.0.0.1:8020",
-    "deploy-local": "graph deploy ioswap/swap --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
+    "deploy-local": "graph deploy ioswap/swap --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "^0.21.1",
